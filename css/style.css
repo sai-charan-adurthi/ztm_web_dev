@@ -1,0 +1,29 @@
+* {
+    text-align: left;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+h2 + p:hover{
+    color: red;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+
+p{
+    color: pink;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 140%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
